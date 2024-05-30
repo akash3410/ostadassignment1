@@ -1,0 +1,116 @@
+/* Common */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.margintop {
+  margin-top: 50px;
+}
+
+.opacity {
+  opacity: 0.6;
+}
+
+.hoverCanceld:hover {
+  background-color: white;
+}
+
+.display {
+  display: block !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Sidebar */
+.sidbar {
+  position: fixed;
+  background-color: #F3480B;
+  padding: 5px;
+  margin-left: -125px;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  margin-left: 40px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+
+.items {
+  margin-top: 70px;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+ul li:hover {
+  width: 100%;
+  background-color: rgba(255, 166, 0, 0.343);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/* Showcase */
+.heading {
+  margin: 70px 0;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.title {
+  color: #F3480B;
+  font-weight: bold;
+}
+
+.showCase {
+  margin: 10px 0;
+}
+
+.hr {
+  border: 6px solid #F3480B;
+  width: 8%;
+  border-radius: 5px;
+}
+
+/* Services */
+.services,
+h4,
+p {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+/* Packages */
+.proPackage {
+  background-color: #F3480B;
+}
+
+.probtn:hover {
+  background-color: #f3490bcb;
+}
+
+/* Contact */
+.formbtn {
+  background-color: #F3480B;
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.formbtn:hover {
+  background-color: #f3490bcb;
+}
